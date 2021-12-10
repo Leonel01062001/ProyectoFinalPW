@@ -1,3 +1,7 @@
+/*
+En esta hoja de estilos lo único que se utilizó que no se vió en clase fué el uso de grid
+*/
+
 #page{
     background-color: white;
     height: 1400px;
@@ -71,7 +75,7 @@
     display: none;
 }
 .main.active{
-    background-color: rgb(188,220,243);
+    background-color: white;
     height: 49.0%;
     width: 96%;
     margin: 2%; 
@@ -83,7 +87,7 @@
     display: none;
 }
 .dessert.active{
-    background-color: rgb(188,220,243);
+    background-color: white;
     height: 49.0%;
     width: 96%;
     margin: 2%; 
@@ -95,7 +99,7 @@
     display: none;
 }
 .drink.active{
-    background-color: rgb(188,220,243);
+    background-color: white;
     height: 49.0%;
     width: 96%;
     margin: 2%; 

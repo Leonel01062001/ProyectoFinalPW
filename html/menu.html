@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilosmenu.css">
+    <link rel="stylesheet" href="estilosmenu.css"> <!-- Se importa la hoja de estilos -->
     <title>Kape-Coffee-Menu</title>
 </head>
 <body>
-    <div id = "page">
-        <div class="header">
+    <div id = "page"> <!-- Div de toda la página -->
+        <div class="header"> <!-- Div de la parte de arriba de la página -->
 
-            <div class="logo">
+            <div class="logo"> <!-- Este div es el que se usa para contener el titulo y logo -->
                 <div class="tit"><img id="l" src="../source/KapeCoffee.png" alt="Logo"></div>
                 KAPE-COFFEE
                 
             </div>
 
         </div>
-        <div class="m">
+        <div class="m"> <!-- Este es el div del menú de selecció -->
             <div class ="selector"> <a href="../Restaurante.html">MENU PRINCIPAL</a></div>
             <div class ="selector"> <a href="menu.html">MENU</a></div>
             <div class ="selector"> <a href="Kape-Coffee-Galeria.html">GALERIA</a></div>
             <div class ="selector"> <a href="promociones.html">PROMOCIONES</a></div>
         </div>
-        <div class="menusel">
+        <div class="menusel"> <!-- Este div contiene los divs que son usados para elegir que menú quieres ver en pantalla -->
             <div class = "opcion" id="btn-main"  >Comidas</div>
             <div class = "opcion" id="btn-dessert">Postres</div>
             <div class = "opcion" id="btn-drink">Bebidas</div>
             
         </div>
-        <div class="main active" id="main">
+        <div class="main active" id="main"> <!-- Este main es usado para poner dentro los platillos del menú principal -->
             <div class="platillo">
                 <div class="foto"><img src="../source/main1.jpg"></div>
                 <div class="descripcion">
@@ -67,7 +67,7 @@
             </div>
 
         </div>
-        <div class="dessert" id="dessert">
+        <div class="dessert" id="dessert"> <!-- Este main es usado para poner dentro los platillos del menú de postres -->
             <div class="platillo">
                 <div class="foto"><img src="../source/Dessert1.png"></div>
                 <div class="descripcion">
@@ -108,7 +108,7 @@
             </div>
         </div>
 
-        <div class="drink" id="drink">
+        <div class="drink" id="drink"> <!-- Este main es usado para poner dentro los platillos del menú de bebidas -->
             <div class="platillo">
                 <div class="foto"><img src="../source/drink1.png"></div>
                 <div class="descripcion">
@@ -149,7 +149,7 @@
             </div>
         </div>
         <hr>
-        <div class="promodeldia">
+        <div class="promodeldia"> <!-- Este main es usado para poner dentro la promocion del día, este div es fijo -->
             <div class="platilloe">
                 <div class="foto"> <img src="../source/MALTEADAS.jpg"> </div>
                 <div class="descripcion">
@@ -163,7 +163,7 @@
                 <div class="precio">$45</div>
             </div>
         </div>
-        <div class="piepag">
+        <div class="piepag"> <!-- Este main es para el pié de página -->
             <div class="rec">
                 <ul>
                     <li>Leonel Ríos</li>
@@ -188,6 +188,6 @@
         </div>
 
     </div>
-    <script src="../js/main.js"></script>
+    <script src="../js/main.js"></script> <!-- Aquí se importa un archivo de javascrip que es usado para hacer interactivos los menús -->
 </body>
 </html>
